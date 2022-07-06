@@ -121,6 +121,55 @@ body {
 
 }
 
+.hero-main {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+#hero-left {
+    border-radius: 5px;
+    border-left: 5px solid orangered;
+    padding-top: 10%;
+    margin-left: 20px;
+}
+
+#hero-left p {
+    margin-bottom: 20px;
+}
+
+.half-width img {
+    width: 100%
+}
+
+.gallery-container {
+    display: flex;
+}
+
+.gallery-main {
+    width: 100%;
+    text-align: center;
+    padding: 5% 10%;
+
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    /* height: 350px; */
+    margin: 0 10px;
+    box-shadow: 10px 10px 10px rgb(190, 190, 190);
+}
+
 .get-update-container {
     display: flex;
 }
