@@ -124,7 +124,7 @@ body {
 .hero-main {
     display: flex;
     text-align: center;
-    width: 100%;
+    padding: 2% 2%;
 }
 
 .half-width {
@@ -135,9 +135,12 @@ body {
 
 #hero-left {
     border-radius: 5px;
-    border-left: 5px solid orangered;
+    border-left: 10px solid;
     padding-top: 10%;
-    margin-left: 20px;
+    border-image: linear-gradient(to bottom,
+            rgb(34, 0, 255),
+            rgb(255, 71, 84)) 1 100%;
+    ;
 }
 
 #hero-left p {
