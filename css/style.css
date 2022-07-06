@@ -7,22 +7,20 @@ body {
 
 .banner-container {
     display: flex;
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('./../images/donation0.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid blue;
+    width: 100%;
     text-align: center;
-
-
 }
 
 #banner {
-    width: 66%;
+    width: 100%;
     color: white;
     margin: auto 17%;
-    /* padding: 0 15%; */
-    border: 1px solid red;
+    padding: 20px 20px;
+    text-align: center;
 
 }
 
@@ -35,42 +33,128 @@ body {
 .description {
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 
-.donate-button {
+.orange-button {
+    border: none;
     color: white;
     text-decoration: none;
     background-color: orangered;
     padding: 10px 20px;
     border-radius: 5px;
-
 }
 
 .donate-today-container {
     display: flex;
-
-
 }
 
 .donate-today {
     width: 100%;
     text-align: center;
-    /* margin: auto 25%; */
-    padding: 12% 20%;
-    border: 1px solid red;
+    padding: 5% 20%;
 
 }
 
 .donate-amount {
     display: flex;
-    border: 1px solid red;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .amount {
-    margin: 0 10px;
-    background-color: aliceblue;
+    margin: 0 auto;
+    background-color: #FAFAFA;
     padding: 30px 30px;
     border-radius: 5px;
+}
 
+#amount-specific {
+    border: 2px solid orangered;
+    background-color: #FFEEEE;
+}
+
+#input-field {
+    margin-bottom: 30px;
+}
+
+#input-field input {
+    width: 90%;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.donate-plan-container {
+    display: flex;
+}
+
+.donate-plan-main {
+    width: 100%;
+    text-align: center;
+    padding: 5% 10%;
+
+}
+
+.donate-plan {
+    display: flex;
+    text-align: left;
+}
+
+#food-section {
+    background-color: #EDF5F6;
+    padding: 10px;
+}
+
+#shelter-section {
+    background-color: #FFEEEE;
+    padding: 10px;
+    margin: 0px 20px;
+
+
+}
+
+#education-section {
+    background-color: #FFF4D6;
+    padding: 10px;
+
+}
+
+.get-update-container {
+    display: flex;
+}
+
+.get-update-main {
+    width: 100%;
+    text-align: center;
+    padding: 5% 20%;
+
+}
+
+.get-update {
+    background-color: #FFF4D6;
+    /* display: flex; */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.get-update form input {
+    width: 50%;
+    background-color: #D9D9D9;
+    padding: 10px 0 10px 5px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.footer-container {
+    color: white;
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footer-heading {
+    color: orangered;
 }
