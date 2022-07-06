@@ -27,6 +27,10 @@ body {
 
 }
 
+#banner span {
+    color: rgb(4, 225, 48);
+}
+
 .heading {
     font-size: 65px;
     font-weight: 700;
